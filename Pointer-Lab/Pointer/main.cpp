@@ -56,7 +56,7 @@ char* fletter = &letter;
 
 cout << "Letter: " << *fletter << endl;
 
-cout << "Memory Address: " << static_cast<void*>(fletter) << endl;
+cout << "Memory Address: " << (void*)fletter << endl;
 
 *fletter = 'B';
 
